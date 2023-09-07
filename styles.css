@@ -1,0 +1,68 @@
+html,
+body {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(72, 160, 236);
+}
+
+.mobile {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 331px;
+  height: 616px;
+  background-color: black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.phoneMirror {
+  width: 328px;
+  height: 600px;
+  background-color: blueviolet;
+  border-radius: 30px;
+  position: relative;
+}
+
+.wrapper {
+  width: 130px;
+  height: 20px;
+  background-color: black;
+  margin: 0px auto 0px auto;
+  border-radius: 0 0 40px 40px;
+}
+
+.camera {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  top: 2px;
+  left: 20%;
+  float: left;
+  border-radius: 10px;
+  margin-right: 8px;
+  border: 2px solid white;
+}
+
+.recorder {
+  position: relative;
+  width: 50px;
+  height: 10px;
+  background-color: white;
+  top: 2px;
+  left: 20%;
+  float: left;
+  border-radius: 10px;
+}
