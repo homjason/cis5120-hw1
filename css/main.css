@@ -1,0 +1,1598 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.phone-background {
+  width: 428px;
+  height: 926px;
+  background: rgba(202,233,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.city {
+  width: 211px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 69px;
+  left: 104px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.hourly-forecast {
+  width: 339px;
+  height: 116px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 433px;
+  left: 45px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.now-hour-card {
+  width: 52px;
+  height: 79px;
+  background: url("../images/v95_1154.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 18px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.now-text {
+  width: 34px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 9px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.now-temp {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 56px;
+  left: 14px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.now-weather-icon {
+  width: 33px;
+  height: 33px;
+  background: url("../images/v95_1157.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+}
+.hour-16-card {
+  width: 52px;
+  height: 79px;
+  background: url("../images/v95_1158.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 67px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.hour-16-text {
+  width: 15px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-16-temp {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 56px;
+  left: 15px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-16-icon {
+  width: 33px;
+  height: 33px;
+  background: url("../images/v95_1161.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+}
+.hour-17-card {
+  width: 52px;
+  height: 79px;
+  background: url("../images/v95_1162.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 116px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.hour-17-text {
+  width: 15px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-17-temp {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 57px;
+  left: 15px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-17-icon {
+  width: 33px;
+  height: 33px;
+  background: url("../images/v95_1165.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+}
+.hour-18-card {
+  width: 52px;
+  height: 79px;
+  background: url("../images/v95_1166.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 165px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.hour-18-text {
+  width: 15px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-18-temp {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 57px;
+  left: 15px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-18-icon {
+  width: 33px;
+  height: 33px;
+  background: url("../images/v95_1169.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+}
+.hour-19-card {
+  width: 52px;
+  height: 79px;
+  background: url("../images/v95_1170.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 214px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.hour-19-text {
+  width: 15px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-19-temp {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 57px;
+  left: 15px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-19-icon {
+  width: 33px;
+  height: 33px;
+  background: url("../images/v95_1173.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+}
+.hour-20-card {
+  width: 52px;
+  height: 79px;
+  background: url("../images/v95_1174.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 263px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.hour-20-text {
+  width: 18px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-20-temp {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 57px;
+  left: 15px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.hour-20-icon {
+  width: 33px;
+  height: 33px;
+  background: url("../images/v95_1177.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+}
+.hourly-forecast-text {
+  width: 95px;
+  color: rgba(119,141,169,1);
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.curr-weather-card {
+  width: 339px;
+  height: 150px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 131px;
+  left: 45px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.curr-weather-icon {
+  width: 75px;
+  height: 75px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 53px;
+  overflow: hidden;
+}
+.curr-weather-icon1 {
+  width: 75px;
+  height: 75px;
+  background: url("../images/v95_1246.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.curr-weather-icon2 {
+  width: 74px;
+  height: 74px;
+  background: url("../images/v95_1247.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  overflow: hidden;
+}
+.curr-weather-text {
+  width: 64px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 97px;
+  left: 59px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.curr-weather-temp {
+  width: 138px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 36px;
+  left: 148px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+.curr-weather-title {
+  width: 102px;
+  color: rgba(119,141,169,1);
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.customize-button {
+  width: 92px;
+  height: 32px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 862px;
+  left: 168px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.customize-text {
+  width: 67px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.curr-info-card {
+  width: 163px;
+  height: 111px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 301px;
+  left: 45px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.feels-like-text {
+  width: 66px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 35px;
+  left: 28px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.feels-like-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 35px;
+  left: 96px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 49px;
+  left: 64px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.low-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 64px;
+  left: 61px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.high-temp-text {
+  width: 35px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 49px;
+  left: 28px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.low-temp-text {
+  width: 30px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 63px;
+  left: 28px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.curr-info-title {
+  width: 73px;
+  color: rgba(119,141,169,1);
+  position: absolute;
+  top: 6px;
+  left: 17px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sunset-card {
+  width: 163px;
+  height: 111px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 301px;
+  left: 217px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.sunset-card-2 {
+  width: 24px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 54px;
+  overflow: hidden;
+}
+.sunset-text {
+  width: 42px;
+  color: rgba(119,141,169,1);
+  position: absolute;
+  top: 6px;
+  left: 13px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sunset-time {
+  width: 57px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 39px;
+  left: 53px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.sunrise-text {
+  width: 69px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 87px;
+  left: 47px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: left;
+}
+.sunset-icon {
+  width: 15px;
+  height: 15px;
+  background: url("../images/v95_1416.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  left: 58px;
+  overflow: hidden;
+}
+.weekly-forecast-card {
+  width: 163px;
+  height: 237px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 574px;
+  left: 45px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.today-card {
+  width: 143px;
+  height: 21px;
+  background: url("../images/v95_1264.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  overflow: hidden;
+}
+.today-text {
+  width: 36px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.today-low-temp {
+  width: 19px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.today-high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 121px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.today-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v95_1268.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  overflow: hidden;
+}
+.today-bar {
+  width: 32px;
+  height: 3px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 86px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.today-bar-1 {
+  width: 22px;
+  height: 3px;
+  background: rgba(255,171,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.today-bar-2 {
+  width: 3px;
+  height: 3px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border-radius: 50%;
+}
+.tue-card {
+  width: 143px;
+  height: 21px;
+  background: url("../images/v95_1368.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 48px;
+  left: 10px;
+  overflow: hidden;
+}
+.tue-text {
+  width: 23px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.tue-low-temp {
+  width: 19px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.tue-high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 121px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.tue-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v95_1372.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  overflow: hidden;
+}
+.tue-bar {
+  width: 32px;
+  height: 3px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 86px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.tue-bar-1 {
+  width: 22px;
+  height: 3px;
+  background: rgba(255,171,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.tue-bar-2 {
+  width: 3px;
+  height: 3px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border-radius: 50%;
+}
+.wed-card {
+  width: 143px;
+  height: 21px;
+  background: url("../images/v95_1376.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 77px;
+  left: 10px;
+  overflow: hidden;
+}
+.wed-text {
+  width: 29px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.wed-low-temp {
+  width: 19px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.wed-high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 121px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.wed-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v95_1380.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  overflow: hidden;
+}
+.wed-bar {
+  width: 32px;
+  height: 3px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 86px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.wed-bar-1 {
+  width: 22px;
+  height: 3px;
+  background: rgba(255,171,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.wed-bar-2 {
+  width: 3px;
+  height: 3px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border-radius: 50%;
+}
+.thu-card {
+  width: 143px;
+  height: 21px;
+  background: url("../images/v95_1384.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 105px;
+  left: 10px;
+  overflow: hidden;
+}
+.thu-text {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.thu-low-temp {
+  width: 19px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.thu-high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 121px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.thu-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v95_1388.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  overflow: hidden;
+}
+.thu-bar {
+  width: 32px;
+  height: 3px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 86px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.thu-bar-1 {
+  width: 22px;
+  height: 3px;
+  background: rgba(255,171,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.thu-bar-2 {
+  width: 3px;
+  height: 3px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border-radius: 50%;
+}
+.fri-card {
+  width: 143px;
+  height: 21px;
+  background: url("../images/v95_1392.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 133px;
+  left: 10px;
+  overflow: hidden;
+}
+.fri-text {
+  width: 16px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.fri-low-temp {
+  width: 19px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.fri-high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 121px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.fri-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v95_1396.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  overflow: hidden;
+}
+.fri-bar {
+  width: 32px;
+  height: 3px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 86px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.fri-bar-1 {
+  width: 22px;
+  height: 3px;
+  background: rgba(255,171,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.fri-bar-2 {
+  width: 3px;
+  height: 3px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border-radius: 50%;
+}
+.sat-card {
+  width: 143px;
+  height: 21px;
+  background: url("../images/v95_1400.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 163px;
+  left: 10px;
+  overflow: hidden;
+}
+.sat-text {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sat-low-temp {
+  width: 19px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sat-high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 121px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sat-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v95_1404.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  overflow: hidden;
+}
+.sat-bar {
+  width: 32px;
+  height: 3px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 86px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.sat-bar-1 {
+  width: 22px;
+  height: 3px;
+  background: rgba(255,171,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.sat-bar-2 {
+  width: 3px;
+  height: 3px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border-radius: 50%;
+}
+.sun-card {
+  width: 143px;
+  height: 21px;
+  background: url("../images/v95_1408.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 10px;
+  overflow: hidden;
+}
+.sun-text {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sun-low-temp {
+  width: 19px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sun-high-temp {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 121px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.sun-icon {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v95_1412.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  overflow: hidden;
+}
+.sun-bar {
+  width: 32px;
+  height: 3px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 86px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.sun-bar-1 {
+  width: 22px;
+  height: 3px;
+  background: rgba(255,171,94,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.sun-bar-2 {
+  width: 3px;
+  height: 3px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border-radius: 50%;
+}
+.name {
+  color: #fff;
+}
+.weekly-forecast-text {
+  width: 99px;
+  color: rgba(119,141,169,1);
+  position: absolute;
+  top: 7px;
+  left: 17px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.fav-city-card {
+  width: 163px;
+  height: 237px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 574px;
+  left: 221px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.ny-card {
+  width: 142px;
+  height: 56px;
+  background: url("../images/v95_1338.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  overflow: hidden;
+}
+.ny-text {
+  width: 61px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.ny-weather {
+  width: 43px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 28px;
+  left: 13px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.ny-temp {
+  width: 24px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 11px;
+  left: 101px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.ny-icon {
+  width: 16px;
+  height: 16px;
+  background: url("../images/v95_1342.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 105px;
+  overflow: hidden;
+}
+.seattle-card {
+  width: 142px;
+  height: 56px;
+  background: url("../images/v95_1358.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  overflow: hidden;
+}
+.seattle-text {
+  width: 44px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.seattle-weather {
+  width: 43px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 28px;
+  left: 13px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.seattle-temp {
+  width: 23px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 11px;
+  left: 101px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.seattle-icon {
+  width: 16px;
+  height: 16px;
+  background: url("../images/v95_1362.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 105px;
+  overflow: hidden;
+}
+.boston-card {
+  width: 142px;
+  height: 56px;
+  background: url("../images/v95_1363.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 167px;
+  left: 10px;
+  overflow: hidden;
+}
+.boston-text {
+  width: 45px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.boston-weather {
+  width: 39px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 28px;
+  left: 13px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.boston-temp {
+  width: 22px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 11px;
+  left: 101px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.boston-icon {
+  width: 16px;
+  height: 16px;
+  background: url("../images/v95_1367.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 105px;
+  overflow: hidden;
+}
+.fav-cities-text {
+  width: 90px;
+  color: rgba(119,141,169,1);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}

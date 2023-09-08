@@ -1,28 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title> Phone </title>
-</head>
-
-<body>
-  <div class="mobile">
-    <div class="phone">
-      <div class="phoneMirror">
-        <div class="wrapper">
-          <div class="camera">
-
-          </div>
-          <div class="recorder">
-
+<!doctype html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/main.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="phone-background">
+      <span class="city">Philadelphia</span>
+      <div class="hourly-forecast">
+        <div class="now-hour-card">
+          <span class="now-text">Now</span><span class="now-temp">90°</span>
+          <div class="now-weather-icon"></div>
+        </div>
+        <div class="hour-16-card">
+          <span class="hour-16-text">16</span><span class="hour-16-temp">90°</span>
+          <div class="hour-16-icon"></div>
+        </div>
+        <div class="hour-17-card">
+          <span class="hour-17-text">17</span><span class="hour-17-temp">90°</span>
+          <div class="hour-17-icon"></div>
+        </div>
+        <div class="hour-18-card">
+          <span class="hour-18-text">18</span><span class="hour-18-temp">90°</span>
+          <div class="hour-18-icon"></div>
+        </div>
+        <div class="hour-19-card">
+          <span class="hour-19-text">19</span><span class="hour-19-temp">90°</span>
+          <div class="hour-19-icon"></div>
+        </div>
+        <div class="hour-20-card">
+          <span class="hour-20-text">20</span><span class="hour-20-temp">90°</span>
+          <div class="hour-20-icon"></div>
+        </div>
+        <span class="hourly-forecast-text">Hourly Forecast</span>
+      </div>
+      <div class="curr-weather-card">
+        <div class="curr-weather-icon">
+          <div class="curr-weather-icon1"></div>
+          <div class="curr-weather-icon2"></div>
+        </div>
+        <span class="curr-weather-text">Sunny</span><span class="curr-weather-temp">94°F</span
+        ><span class="curr-weather-title">Current Weather</span>
+      </div>
+      <div class="customize-button"><span class="customize-text">Customize</span></div>
+      <div class="curr-info-card">
+        <span class="feels-like-text">Feels Like:</span
+        ><span class="feels-like-temp">99°</span><span class="high-temp">95°</span
+        ><span class="low-temp">74°</span><span class="high-temp-text">High:</span
+        ><span class="low-temp-text">Low:</span
+        ><span class="curr-info-title">Current Info</span>
+      </div>
+      <div class="sunset-card">
+        <div class="sunset-card-2"></div>
+        <span class="sunset-text">Sunset</span><span class="sunset-time">19:27</span
+        ><span class="sunrise-text">Sunrise: 06:32</span>
+        <div class="sunset-icon"></div>
+      </div>
+      <div class="weekly-forecast-card">
+        <div class="today-card">
+          <span class="today-text">Today</span><span class="today-low-temp">74°</span
+          ><span class="today-high-temp">96°</span>
+          <div class="today-icon"></div>
+          <div class="today-bar">
+            <div class="today-bar-1"><div class="today-bar-2"></div></div>
           </div>
         </div>
+        <div class="tue-card">
+          <span class="tue-text">Tue</span><span class="tue-low-temp">74°</span
+          ><span class="tue-high-temp">96°</span>
+          <div class="tue-icon"></div>
+          <div class="tue-bar">
+            <div class="tue-bar-1"><div class="tue-bar-2"></div></div>
+          </div>
+        </div>
+        <div class="wed-card">
+          <span class="wed-text">Wed</span><span class="wed-low-temp">74°</span
+          ><span class="wed-high-temp">96°</span>
+          <div class="wed-icon"></div>
+          <div class="wed-bar">
+            <div class="wed-bar-1"><div class="wed-bar-2"></div></div>
+          </div>
+        </div>
+        <div class="thu-card">
+          <span class="thu-text">Thu</span><span class="thu-low-temp">74°</span
+          ><span class="thu-high-temp">96°</span>
+          <div class="thu-icon"></div>
+          <div class="thu-bar">
+            <div class="thu-bar-1"><div class="thu-bar-2"></div></div>
+          </div>
+        </div>
+        <div class="fri-card">
+          <span class="fri-text">Fri</span><span class="fri-low-temp">74°</span
+          ><span class="fri-high-temp">96°</span>
+          <div class="fri-icon"></div>
+          <div class="fri-bar">
+            <div class="fri-bar-1"><div class="fri-bar-2"></div></div>
+          </div>
+        </div>
+        <div class="sat-card">
+          <span class="sat-text">Sat</span><span class="sat-low-temp">74°</span
+          ><span class="sat-high-temp">96°</span>
+          <div class="sat-icon"></div>
+          <div class="sat-bar">
+            <div class="sat-bar-1"><div class="sat-bar-2"></div></div>
+          </div>
+        </div>
+        <div class="sun-card">
+          <span class="sun-text">Sun</span><span class="sun-low-temp">74°</span
+          ><span class="sun-high-temp">96°</span>
+          <div class="sun-icon"></div>
+          <div class="sun-bar">
+            <div class="sun-bar-1"><div class="sun-bar-2"></div></div>
+          </div>
+        </div>
+        <span class="weekly-forecast-text">Weekly Forecast</span>
+      </div>
+      <div class="fav-city-card">
+        <div class="ny-card">
+          <span class="ny-text">New York</span
+          ><span class="ny-weather">Cloudy</span><span class="ny-temp">90°</span>
+          <div class="ny-icon"></div>
+        </div>
+        <div class="seattle-card">
+          <span class="seattle-text">Seattle</span
+          ><span class="seattle-weather">Cloudy</span><span class="seattle-temp">72°</span>
+          <div class="seattle-icon"></div>
+        </div>
+        <div class="boston-card">
+          <span class="boston-text">Boston</span><span class="boston-weather">Sunny</span
+          ><span class="boston-temp">93°</span>
+          <div class="boston-icon"></div>
+        </div>
+        <span class="fav-cities-text">Favorite Cities</span>
       </div>
     </div>
-  </div>
-</body>
-
-</html>html>
+  </body>
+</html>
